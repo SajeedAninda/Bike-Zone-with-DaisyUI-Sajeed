@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Manrope:wght@400;500&family=Poppins:ital,wght@0,400;0,600;0,700;0,800;0,900;1,500&display=swap"
+        rel="stylesheet">
+    <style>
+        .font-inter {
+            font-family: 'Inter', sans-serif;
+        }
+
+        .font-manrope {
+            font-family: 'Manrope', sans-serif;
+        }
+
+        .font-poppins {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+    <title>Biker Zone with Daisy UI</title>
+</head>
+
+<body>
+    <header class="font-poppins">
+        <div class="hero min-h-screen" style="background-image: url(../images/others/background.png);">
+            <!-- NAVBAR  -->
+            <div class="hero-overlay bg-opacity-50">
+                <nav class="md:max-w-2xl lg:max-w-6xl m-auto">
+                    <div class="flex flex-col md:flex-row navbar pt-7">
+                        <div class="flex-1">
+                            <a class="text-3xl text-white font-bold cursor-pointer">Go Ride</a>
+                        </div>
+                        <div class="">
+                            <ul
+                                class="menu menu-horizontal px-1 text-white font-medium flex justify-between items-center gap-5">
+                                <li><a>Home</a></li>
+                                <li><a>Shop</a></li>
+                                <li><a>News</a></li>
+                                <li><a>Contact</a></li>
+                                <button
+                                    class="btn m-0 m-auto md:btn text-white bg-[#E76F51] border-[#E76F51] hover:[#E76F51]">Login</button>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+            <!-- HERO CONTAINER  -->
+            <div class="md:max-w-2xl w-full lg:max-w-6xl pt-7">
+                <div class="text-center md:text-left space-y-7 font-poppins ">
+                    <h1 class="text-5xl mb-5 font-bold text-white leading-normal">
+                        Keep Your Ride Safe <br> At Every Time
+                    </h1>
+
+                    <p class="mb-5 text-white font-light">Amet minim mollit non deserunt
+                        ullamco est sit aliqua dolor
+                        <br>
+                        do amet sint. Velit officia consequat duis enim velit mollit. Exercitation <br> veniam consequat
+                        sunt nostrud amet.
+                    </p>
+                    <button class="btn text-white bg-[#E76F51] border-[#E76F51] hover:[#E76F51]">Purchase</button>
+                </div>
+            </div>
+        </div>
+    </header>
+</body>
+
+</html>
